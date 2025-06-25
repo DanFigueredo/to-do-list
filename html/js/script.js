@@ -12,6 +12,7 @@ function add(){
     document.querySelector("ul").appendChild(li) 
 
     document.getElementById("tarefa").value = ""
+    tarefa.focus()
     
 }
 
